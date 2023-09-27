@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUT:64</title>
+
+    <style>
+        body {
+            background-color: antiquewhite;
+        }
+        .container{
+            display: flex;
+            place-content: center;
+        }
+        .imgBox {
+            height: 145px;
+            width: 145px;
+            background-image: url('/image.jpg');
+            background-size: cover;
+            /* position: relative;
+            top: 2px;
+            left: 2px; */
+        }
+        .whiteBox {
+            display: flex;
+            justify-content: center;
+            align-items: center;     
+            height: 155px;
+            width: 155px;
+            margin: 10px;
+            background-color: #fff;
+            border: 3px solid blue;
+        }
+        .hold{
+            border: 3px solid red;
+        }
+        .hide{
+            display:none;
+        }
+        .dashed{
+            background-color: rgb(150, 147, 147);
+            border: dashed;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align: center;">Hey!!! Daya here, you can suffle me in any box</h1>
+    <div class="container">
+        <div class="whiteBox">
+            <div class="imgBox" draggable="true"></div>
+        </div>
+        <div class="whiteBox"></div>
+        <div class="whiteBox"></div>
+        <div class="whiteBox"></div>
+    </div>
+</body>
+<script src="/index.js"></script>
+</html>

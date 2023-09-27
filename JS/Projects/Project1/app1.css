@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar-brand {
+    margin-right: 2rem;
+}
+.line{
+    border: 1px solid black;
+}
+
+.search-bar{
+    width: 500px;
+}
+
+#addTitle{
+    /* width: 100%; */
+    padding: 0.5rem .75rem;
+    /* border: 1px solid #ced4da; */
+    border-bottom: none;
+    height: max-content;
+    margin-bottom: 6px;
+}
+#addTxt{
+    padding: 0.5rem .75rem;
+    border-top: none;
+}
